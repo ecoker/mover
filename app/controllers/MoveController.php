@@ -13,8 +13,6 @@ class MoveController extends BaseController {
         $cwd = getcwd();
         if (strpos($cwd, '/Sites') > 0) {
             $start = substr($cwd, 0, strpos($cwd, '/Sites') + 6);
-            $uat = 'file:///Volumes/creative/UAT-Production/';
-            $prod = 'file:///Volumes/EcommCreative-Prod/';
             $environments = array(
                 'LOCAL'     => 'file://'.$start.'/',
                 // 'UAT-PROD'  => 'file:///Volumes/creative/UAT-Production/',
