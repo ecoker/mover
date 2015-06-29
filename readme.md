@@ -1,3 +1,16 @@
+##Hosts Setup
+```
+127.0.0.1   mover.dev
+```
+
+##VHosts Setup
+```
+<VirtualHost *>
+  DocumentRoot /Users/{{username}}/Sites/projects/mover/public
+  ServerName mover.dev
+</VirtualHost>
+```
+
 ## Laravel PHP Framework
 
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
